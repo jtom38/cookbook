@@ -1,0 +1,8 @@
+baseURL = 'http://jtom38.github.io/cookbook'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hugo-theme-learn"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
