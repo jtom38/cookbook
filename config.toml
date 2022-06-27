@@ -1,6 +1,6 @@
-baseURL = 'https://jtom38.github.io/cookbook'
+baseURL = 'https://jtom38.github.io/cookbook/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Cookbook'
 theme = "hugo-theme-learn"
 
 [taxonomies]
