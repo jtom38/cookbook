@@ -1,7 +1,7 @@
 ---
 title: "Instant Pot Pinto Beans"
 date: 2022-06-27T14:12:49-07:00
-draft: true
+draft: false
 tags: ["side", "beans"]
 ---
 

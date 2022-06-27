@@ -1,7 +1,7 @@
 ---
 title: "Chicken Tikka Masala"
 date: 2022-06-27T11:30:26-07:00
-draft: true
+draft: false
 tags: [dinner, bon apptite]
 ---
 
