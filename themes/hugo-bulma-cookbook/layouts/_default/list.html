@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+{{ partial "hero.html" . }}
+
+<div class="container">
+
+    {{ range .RegularPages }}
+    <div class="card">
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4">
+                        <a href="{{ .Permalink }}"> {{ .Title }}</a>
+                    </p>
+                    <p class="subtitle is-6">{{ .Params.subtitle }}</p>
+                    
+                    {{ with .Params.tags }}
+                    <ul id="tags">
+                        {{ range . }}
+                            <span class="tag">
+                                <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
+                            </span>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+    
+{{ partial "footer.html" . }}
