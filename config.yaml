@@ -1,0 +1,8 @@
+baseURL: 'https://jtom38.github.io/cookbook/'
+languageCode: 'en-us'
+title: 'Cookbook'
+theme: "hugo-bulma-cookbook"
+
+taxonomies:
+  category: 'categories'
+  tag: 'tags'
