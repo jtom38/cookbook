@@ -3,7 +3,7 @@
 
 name = "cookbook"
 license = "MIT"
-licenselink = "https://github.com/matcornic/hugo-theme-learn/blob/master/LICENSE.md"
+licenselink = "https://github.com/jtom38/hugo-bulma-cookbook/blob/master/LICENSE.md"
 description = "Minimal cookbook template for Hugo based on Bulma CSS."
 #homepage = "https://github.com/matcornic/hugo-theme-learn/"
 #repo = "https://github.com/matcornic/hugo-theme-learn"
@@ -13,5 +13,5 @@ min_version = 0.25
 
 [author]
   name = "James Tombleson"
-  homepage = "https://matcornic.github.io/"
+  homepage = "https://github.com/jtom38/hugo-bulma-cookbook"
 
