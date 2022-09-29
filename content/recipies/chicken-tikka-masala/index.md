@@ -1,11 +1,12 @@
 ---
 title: "Chicken Tikka Masala"
+subtitle: 
 date: 2022-06-27T11:30:26-07:00
 draft: false
-tags: [dinner, bon apptite]
+tags: [Dinner, Bon Apptite Recipie, Indian]
+thumbnail:
+parenturl:
 ---
-
-![](./../../images/ba-tikka-masala-2_jpg.jpg)
 
 ## Ingredients
 

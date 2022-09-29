@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+{{ partial "hero.html" . }}
+
+<div class="container">
+    <img src="{{ .Params.thumbnail }}" />
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    <h4 class="subtitle" id="date"> Posted: {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
+    <h5 class="subtitle" id="wordcount"> Word Count: {{ .WordCount }} Words </h5>
+
+    <br>
+    <h2 class="title">Tags</h2>
+    {{ with .Params.tags }}
+        {{ range . }}
+        <span class="tag">
+            <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
+        </span>
+        {{ end }}
+    {{ end }}
+</div>
+
+
+{{ partial "footer.html" . }}
