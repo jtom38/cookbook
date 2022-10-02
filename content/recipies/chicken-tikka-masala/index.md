@@ -3,9 +3,14 @@ title: "Chicken Tikka Masala"
 subtitle: 
 date: 2022-06-27T11:30:26-07:00
 draft: false
+
 tags: [Dinner, Bon Apptite Recipie, Indian]
-thumbnail:
-parenturl:
+categories: ["Main Dish"]
+
+listthumbnail: https://assets.bonappetit.com/photos/5b69f163d3d14670539a2174/1:1/w_2240,c_limit/ba-tikka-masala-2.jpg
+thumbnail: https://assets.bonappetit.com/photos/5b69f163d3d14670539a2174/1:1/w_2240,c_limit/ba-tikka-masala-2.jpg
+
+parenturl: https://www.bonappetit.com/recipe/chicken-tikka-masala
 ---
 
 ## Ingredients
