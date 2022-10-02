@@ -2,11 +2,14 @@
 {{ partial "hero.html" . }}
 
 <div class="container">
+    <br>
+    
     {{ range .RegularPages }}
 
         <div class="card">
             <div class="card-content">
                 <div class="media">
+
                     <div class="media-left">
                         <figure class="image is-128x128">
                             {{ with .Params.listthumbnail }}
@@ -20,20 +23,33 @@
                             <a href="{{ .Permalink }}"> {{ .Title }}</a>
                         </p>
                         <p class="subtitle is-6">{{ .Params.subtitle }}</p>
+                        
                         {{ with .Params.tags }}
-                        <ul id="tags">
+                        <div class="buttons">
                             {{ range . }}
-                                <span class="tag">
-                                    <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
-                                </span>
+                            <button class="button">
+                                <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
+                            </button>
                             {{ end }}
-                        </ul>
+                        </div>
+                        {{ end }}
+
+
+                        {{ with .Params.categories }}
+                        <div class="buttons">
+                            {{ range . }}
+                            <button class="button">
+                                <a href="{{ "categories" | absURL }}/{{ . | urlize }}">{{ . }}</a>
+                            </button>
+                            {{ end }}
+                        </div>
                         {{ end }}
                     </div>
                 </div>
             </div>
         </div>
     {{ end }}
-</div>
     
+</div>
+
 {{ partial "footer.html" . }}

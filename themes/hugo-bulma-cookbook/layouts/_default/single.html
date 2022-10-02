@@ -2,24 +2,38 @@
 {{ partial "hero.html" . }}
 
 <div class="container">
-    <img src="{{ .Params.thumbnail }}" />
-
-    <div class="content">
-        {{ .Content }}
-    </div>
-
-    <h4 class="subtitle" id="date"> Posted: {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
-    <h5 class="subtitle" id="wordcount"> Word Count: {{ .WordCount }} Words </h5>
-
     <br>
-    <h2 class="title">Tags</h2>
-    {{ with .Params.tags }}
-        {{ range . }}
-        <span class="tag">
-            <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
-        </span>
-        {{ end }}
-    {{ end }}
+    
+    <div class="columns">
+
+        <div class="column">
+            <img src="{{ .Params.thumbnail }}" />
+        </div>
+    
+        <div class="column">
+            <div class="content">
+                {{ .Content }}
+            </div>
+        
+            <h4 class="subtitle" id="date"> Posted: {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
+            <h5 class="subtitle" id="wordcount"> Word Count: {{ .WordCount }} Words </h5>
+        
+            <br>
+            <h2 class="title">Tags</h2>
+
+            <div class="buttons">
+                {{ with .Params.tags }}
+                
+                {{ range . }}
+                <button class="button">
+                    <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
+                </button>
+                {{ end }}
+                    
+                {{ end }}
+            </div>
+        </div>
+    </div>
 </div>
 
 

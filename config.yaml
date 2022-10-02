@@ -6,3 +6,12 @@ theme: "hugo-bulma-cookbook"
 taxonomies:
   category: 'categories'
   tag: 'tags'
+  #season: 'seasons'
+
+# Used to bring the /tags/ forward
+preserveTaxonomyNames: true
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5

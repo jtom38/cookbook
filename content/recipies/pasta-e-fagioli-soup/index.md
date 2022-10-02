@@ -3,9 +3,14 @@ title: "Pasta e Fagioli Soup"
 subtitle: Fantastic winter soup
 date: 2022-06-28T09:21:26-07:00
 draft: false
+
 tags: [Soup, Pasta, Itilian]
+categories: ["Main Dish"]
+seasons: ["Fall", "Winter"]
+
 listthumbnail: ./pasta-e-fagioli-soup/thumbnail.png
 thumbnail: ./thumbnail.png
+
 parenturl: https://www.savingdessert.com/pasta-e-fagioli-soup-recipe/
 ---
 
