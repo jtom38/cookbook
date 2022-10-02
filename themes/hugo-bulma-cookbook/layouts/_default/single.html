@@ -6,9 +6,11 @@
     
     <div class="columns">
 
+        {{ if .Params.thumbnail }}
         <div class="column">
             <img src="{{ .Params.thumbnail }}" />
         </div>
+        {{ end }}
     
         <div class="column">
             <div class="content">
