@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+{{ partial "hero.html" . }}
+
+<div class="container">
+    <br>
+
+    <div class="buttons">
+        {{ range .Data.Pages }}
+        <button class="button">
+            <a href="{{.RelPermalink}}">{{ .Title }}</a>
+        </button>
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
