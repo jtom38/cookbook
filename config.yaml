@@ -1,4 +1,4 @@
-baseURL: 'https://jtom38.github.io/cookbook/'
+baseURL: 'https://jtom38.github.io/cookbook'
 languageCode: 'en-us'
 title: 'Cookbook'
 theme: "hugo-bulma-cookbook"
@@ -6,7 +6,6 @@ theme: "hugo-bulma-cookbook"
 taxonomies:
   category: 'categories'
   tag: 'tags'
-  #season: 'seasons'
 
 # Used to bring the /tags/ forward
 preserveTaxonomyNames: true
