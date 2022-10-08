@@ -2,8 +2,13 @@
 title: "Japanese Chicken Curry"
 date: 2022-06-27T12:59:10-07:00
 draft: false
+
 tags: [Curry, Japanese, Chicken]
-thumbnail: 
+categories: ["Main Dish"]
+
+listthumbnail: "./japanese-curry/thumbnail.png"
+thumbnail: ./thumbnail.png
+
 parenturl: https://www.justonecookbook.com/simple-chicken-curry/#wprm-recipe-container-59001
 ---
 
