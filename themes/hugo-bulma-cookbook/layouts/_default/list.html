@@ -13,9 +13,11 @@
                     
                     <div class="media-left">
                         <figure class="image is-128x128">
+                            <a href="{{ .Permalink }}" >
                             {{ with .Params.listthumbnail }}
-                            <img src="{{ . }}" alt="Placeholder image">
+                                <img src="{{ . }}" alt="Placeholder image" >
                             {{ end }}
+                            </a>
                         </figure>
                     </div>
                     

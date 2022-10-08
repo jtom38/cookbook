@@ -2,8 +2,10 @@
 title: "Instant Pot Pinto Beans"
 date: 2022-06-27T14:12:49-07:00
 draft: false
+
 tags: ["Side", "Beans", "Pressure Cooker"]
-thumbnail:
+
+thumbnail: ./thumbnail.png
 parenturl: https://www.apinchofhealthy.com/instant-pot-pinto-beans/
 ---
 
