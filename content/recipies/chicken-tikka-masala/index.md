@@ -7,9 +7,6 @@ draft: false
 tags: [Dinner, Bon Apptite Recipie, Indian]
 categories: ["Main Dish"]
 
-listthumbnail: https://assets.bonappetit.com/photos/5b69f163d3d14670539a2174/1:1/w_2240,c_limit/ba-tikka-masala-2.jpg
-thumbnail: https://assets.bonappetit.com/photos/5b69f163d3d14670539a2174/1:1/w_2240,c_limit/ba-tikka-masala-2.jpg
-
 parenturl: https://www.bonappetit.com/recipe/chicken-tikka-masala
 ---
 
