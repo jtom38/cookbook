@@ -6,11 +6,9 @@
     
     <div class="columns">
 
-        {{ if .Params.thumbnail }}
         <div class="column">
-            <img src="{{ .Params.thumbnail }}" />
+            <img src="{{ .Site.BaseURL }}{{.File.Dir}}thumbnail.png" alt="Missing thumbnail :(" />
         </div>
-        {{ end }}
     
         <div class="column">
             <div class="content">

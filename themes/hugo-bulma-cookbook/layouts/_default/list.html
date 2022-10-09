@@ -1,59 +1,12 @@
 {{ partial "header.html" . }}
 {{ partial "hero.html" . }}
 
-<div class="container">
-    <br>
-    
-    {{ range .RegularPages }}
+{{ if $.Site.Params.UseListRows }}
+{{ partial "list.rows.html" . }}
+{{ end }}
 
-        <div class="card">
-            <div class="card-content">
-                <div class="media">
-
-                    
-                    <div class="media-left">
-                        <figure class="image is-128x128">
-                            <a href="{{ .Permalink }}" >
-                            {{ with .Params.listthumbnail }}
-                                <img src="{{ . }}" alt="Placeholder image" >
-                            {{ end }}
-                            </a>
-                        </figure>
-                    </div>
-                    
-
-                    <div class="media-content">
-                        <p class="title is-4">
-                            <a href="{{ .Permalink }}"> {{ .Title }}</a>
-                        </p>
-                        <p class="subtitle is-6">{{ .Params.subtitle }}</p>
-                        
-                        {{ with .Params.tags }}
-                        <div class="buttons">
-                            {{ range . }}
-                            <button class="button">
-                                <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>
-                            </button>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-
-
-                        {{ with .Params.categories }}
-                        <div class="buttons">
-                            {{ range . }}
-                            <button class="button">
-                                <a href="{{ "categories" | absURL }}/{{ . | urlize }}">{{ . }}</a>
-                            </button>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    {{ end }}
-    
-</div>
+{{ if $.Site.Params.UseCardView }}
+{{ partial "list.cards.html" . }}
+{{ end }}
 
 {{ partial "footer.html" . }}
