@@ -6,7 +6,6 @@ draft: false
 tags: ["Breakfast", "Sides"]
 categories: ["Sides"]
 
-thumbnail: 
 parenturl: https://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html
 ---
 
