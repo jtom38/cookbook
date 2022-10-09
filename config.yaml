@@ -14,3 +14,10 @@ sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
+
+params:
+  # This tells hugp-bulma-cookbook theme to use the list display view
+  UseListRows: true
+
+  # Enable this line to use the card view
+  #UseCardView: true
