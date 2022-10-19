@@ -1,7 +1,12 @@
-<meta name="og:site_name" content="Tombleson Cookbook" >
+<meta name="title" content="{{ .Title }}">
+<meta name="description" content="{{ .Site.Title }}">
+
+<meta name="og:site_name" content="{{ .Site.Title }}" >
 <meta name="og:title" content="{{ .Title }}">
-<meta name="og:image" content="{{ .Site.BaseURL }}favicon.svg">
+<meta name="og:url" content="{{ .Permalink }}">
+<meta name="og:image" content="{{ .Site.BaseURL }}meta-thumb.png">
 
 <meta name="twitter:card" charset="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:image" content="{{ .Site.BaseURL }}favicon.svg">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}meta-thumb.png">
