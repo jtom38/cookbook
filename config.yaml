@@ -1,6 +1,7 @@
-baseURL: 'https://jtom38.github.io/cookbook/'
+#baseURL: 'https://jtom38.github.io/cookbook/'
+baseURL: 'https://cookbook.jamestombleson.com/'
 languageCode: 'en-us'
-title: 'Cookbook'
+title: 'Tombleson Family Cookbook'
 theme: "hugo-bulma-cookbook"
 
 taxonomies:
