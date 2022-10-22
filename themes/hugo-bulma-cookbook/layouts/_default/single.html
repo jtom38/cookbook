@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Page.Language | default "en" }}">
 <head>
-    {{ partial "header.html"}}
+    {{ partial "header.html" . }}
     {{ partial "header.meta.single.html" .}}
-    {{ partial "script.menu.html"}}
+    {{ partial "script.menu.html" .}}
     <title>{{ .Title }}</title>
 </head>
 <body>
