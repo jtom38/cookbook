@@ -3,11 +3,12 @@ title: "Japanese Chicken Curry"
 date: 2022-06-27T12:59:10-07:00
 draft: false
 
-tags: [Curry, Japanese, Chicken]
-categories: ["Main Dish"]
-
-listthumbnail: "./japanese-curry/thumbnail.png"
-thumbnail: ./thumbnail.png
+tags: [Curry, Chicken]
+cuisine: [Japanese]
+course: [Main]
+prepTimeMinutes: 20
+cookTimeMinutes: 50
+servings: 8
 
 parenturl: https://www.justonecookbook.com/simple-chicken-curry/#wprm-recipe-container-59001
 ---
@@ -38,7 +39,7 @@ parenturl: https://www.justonecookbook.com/simple-chicken-curry/#wprm-recipe-con
 
 Discard the extra fat from the chicken and cut it into bite size pieces. Season with a little bit of salt and pepper.
 
-- Peel and cut the carrot in rolling wedges ([Rangiri](https://www.justonecookbook.com/rangiri/)) and cut the onions in wedges. Cut the potatoes into 1 ½ inch (4 cm) pieces and soak in water for 15 minutes to remove excess starch.
+- Peel and cut the carrot in rolling wedges ([Rangiri](https://www.justonecookbook.com/rangiri/)) and cut the onions in wedges. Cut the potatoes into 1 1/2 inch (4 cm) pieces and soak in water for 15 minutes to remove excess starch.
 - Cut the potatoes into 1 1/2 inch (4 cm) pieces and soak in water for 15 minutes to remove excess starch.
 - Grate the ginger and crush the garlic.
 

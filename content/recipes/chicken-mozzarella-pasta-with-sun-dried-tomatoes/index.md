@@ -4,12 +4,12 @@ subtitle:
 date: 2022-09-28T06:36:00-07:00
 draft: false
 
-tags: [Pasta, Itilian, Chicken, Tomatoes, Summer, Fall]
-categories: ["Main Dish"]
-
-listthumbnail: ./chicken-mozzarella-pasta-with-sun-dried-tomatoes/thumbnail.png
-thumbnail: ./thumbnail.png
-
+tags: [Pasta, Chicken, Tomatoes]
+cuisine: [Itilian, American]
+course: [Main]
+prepTimeMinutes: 20
+cookTimeMinutes: 20
+servings: 4
 parenturl: https://juliasalbum.com/chicken-mozzarella-pasta-with-sun-dried-tomatoes/
 ---
 

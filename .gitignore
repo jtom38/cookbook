@@ -1,5 +1,7 @@
 *.lock
 
 public/
+themes/
+config/
 
 .DS_Store
