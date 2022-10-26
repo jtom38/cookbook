@@ -5,11 +5,11 @@ date: 2022-10-07T09:30:00-07:00
 draft: false
 
 tags: ["Potatos", "Crispy"]
-categories: ["Sides"]
-
-listthumbnail: "./crispy-smashed-potatoes/thumbnail.png"
-thumbnail: "./thumbnail.png"
-
+cuisine: [American]
+course: [Side]
+prepTimeMinutes: 30
+cookTimeMinutes: 25
+servings: 4~
 parenturl: "https://www.howsweeteats.com/2019/05/crispy-smashed-potatoes/"
 ---
 
@@ -30,3 +30,7 @@ parenturl: "https://www.howsweeteats.com/2019/05/crispy-smashed-potatoes/"
 1. Brush a baking sheet with 1 1/2 tablespoons of olive oil. Place the potatoes on the sheet. Use your hand or the bottom of a glass to smash them once, trying to keep them in one piece. Drizzle the remaining olive oil over the potatoes. Sprinkle the potatoes with the salt, pepper and garlic powder.
 
 1. Place the sheet in the oven and roast the potatoes for 25 to 30 minutes, until golden and crispy. Remove and serve immediately. If desired, you can serve them with sriracha yogurt dip.
+
+## Notes
+
+1. I have prepped these ahead of time countless times. What that means is that you parboil your potatoes then once they cool, stick then in the fridge. The day you make these, just smash and roast. It’s a huge time saver and I can’t recommend it more!

@@ -3,15 +3,17 @@ title: "Instant Pot Pinto Beans"
 date: 2022-06-27T14:12:49-07:00
 draft: false
 
-tags: ["Side", "Beans", "Pressure Cooker"]
+tags: ["Beans", "Pressure Cooker"]
+
+cuisine: [American]
+course: [Side]
+prepTimeMinutes: 10
+cookTimeMinutes: 90
+servings: 4
 
 thumbnail: ./thumbnail.png
 parenturl: https://www.apinchofhealthy.com/instant-pot-pinto-beans/
 ---
-
-## Notes
-
-- This one takes around an 1:30 to cook and release the pressue.  Plan ahead!
 
 ## Ingredients
 

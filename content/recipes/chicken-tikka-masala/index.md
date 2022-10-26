@@ -4,8 +4,12 @@ subtitle:
 date: 2022-06-27T11:30:26-07:00
 draft: false
 
-tags: [Dinner, Bon Apptite Recipie, Indian]
-categories: ["Main Dish"]
+tags: [Bon Apptite Recipie]
+cuisine: [Indian]
+course: [Main]
+prepTimeMinutes: 30 
+cookTimeMinutes: 60
+servings: 6
 
 parenturl: https://www.bonappetit.com/recipe/chicken-tikka-masala
 ---

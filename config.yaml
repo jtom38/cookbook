@@ -1,12 +1,13 @@
 baseURL: 'https://jtom38.github.io/cookbook/'
-#baseURL: 'https://cookbook.jamestombleson.com/'
 languageCode: 'en-us'
 title: 'Tombleson Family Cookbook'
-theme: "hugo-bulma-cookbook"
+theme: "github.com/jtom38/hugo-cookbook"
+enableEmoji: true
 
 taxonomies:
-  category: 'categories'
   tag: 'tags'
+  cuisines: 'cuisine'
+  courses: 'course'
 
 # Used to bring the /tags/ forward
 preserveTaxonomyNames: true
@@ -17,8 +18,10 @@ sitemap:
   priority: 0.5
 
 params:
-  # This tells hugp-bulma-cookbook theme to use the list display view
+  # hugo-cookbook params
+  DisplayRssButton: true
+  ## This tells the theme to use the list display view
   UseListRows: true
 
-  # Enable this line to use the card view
+  ## Enable this line to use the card view
   #UseCardView: true
