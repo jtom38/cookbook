@@ -4,7 +4,7 @@ subtitle: These are always a hit
 date: 2022-10-21T00:00:00-07:00
 draft: false
 
-tags: [Desert, Bars, Rasperry]
+tags: [Desert, Bars, Raspberry]
 cuisine: [American]
 course: [Side Dish]
 prepTimeMinutes: 20

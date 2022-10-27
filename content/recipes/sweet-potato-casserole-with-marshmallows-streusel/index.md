@@ -44,5 +44,3 @@ Transfer the mashed potatoes to the prepared casserole dish. Place in the oven u
 - You can assemble the cooked and seasoned mashed sweet potatoes in a casserole dish and refrigerate tightly covered for 2 days (without any topping).
 - You can also prepare the streusel topping (without the marshmallows) and refrigerate that separately.
 - Before serving, bring the streusel topping to room temperature. Heat the potatoes (without any topping) in the oven at 375°F until heated all the way through (30-ish minutes depending on the size of your casserole dish). Or speed it along by microwaving. Once the potatoes are warmed through, sprinkle on the marshmallows and streusel and return to the oven for 8-15 minutes, until the marshmallows are lightly toasted (broil briefly for a darker color).
-
- 

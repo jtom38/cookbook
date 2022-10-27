@@ -4,7 +4,7 @@ subtitle:
 date: 2022-06-27T11:30:26-07:00
 draft: false
 
-tags: [Bon Apptite Recipie]
+tags: [bonappetit.com]
 cuisine: [Indian]
 course: [Main]
 prepTimeMinutes: 30 
