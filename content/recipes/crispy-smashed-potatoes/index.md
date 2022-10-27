@@ -4,7 +4,7 @@ subtitle:
 date: 2022-10-07T09:30:00-07:00
 draft: false
 
-tags: ["Potatos", "Crispy"]
+tags: ["Potatoes", "Crispy"]
 cuisine: [American]
 course: [Side]
 prepTimeMinutes: 30

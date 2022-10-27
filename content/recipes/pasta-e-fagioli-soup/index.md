@@ -5,7 +5,7 @@ date: 2022-06-28T09:21:26-07:00
 draft: false
 
 tags: [Pasta]
-cuisine: [Itialian]
+cuisine: [Italian]
 course: [Soup]
 prepTimeMinutes: 30
 cookTimeMinutes: 30

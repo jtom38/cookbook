@@ -5,7 +5,7 @@ date: 2022-09-28T06:36:00-07:00
 draft: false
 
 tags: [Pasta, Chicken, Tomatoes]
-cuisine: [Itilian, American]
+cuisine: [Italian, American]
 course: [Main]
 prepTimeMinutes: 20
 cookTimeMinutes: 20
