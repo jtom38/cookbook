@@ -1,13 +1,13 @@
-baseURL: 'https://jtom38.github.io/cookbook/'
-languageCode: 'en-us'
-title: 'Tombleson Family Cookbook'
+baseURL: "https://cookbook.jamestombleson.com"
+languageCode: "en-us"
+title: "Tombleson Family Cookbook"
 theme: "github.com/jtom38/hugo-cookbook"
 enableEmoji: true
 
 taxonomies:
-  tag: 'tags'
-  cuisines: 'cuisine'
-  courses: 'course'
+  tag: "tags"
+  cuisines: "cuisine"
+  courses: "course"
 
 # Used to bring the /tags/ forward
 preserveTaxonomyNames: true
